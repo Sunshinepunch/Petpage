@@ -1,11 +1,15 @@
 $(document).ready(function() {
-  $(".clickable").click(function() {
-    $("#initially-showing").toggle();
-    $("#initially-hidden").toggle();
+  $("button#light").click(function() {
+    $("body").removeClass();
+    $("body").addClass("light-background");
   });
-  $( "#clickme" ).click(function() {
-    $( "#walrus" ).slideUp( "slow", "linear", function() {
-      // Animation complete.
-    });
+  $("button#dark").click(function() {
+    $("body").removeClass();
+    $("body").addClass("dark-background");
+    $("body").addClass("white-text");
+  });
+  $("button#og").click(function(){
+    $("body").removeClass();
+    $("body").addClass("og-background");
   });
 });

@@ -1,5 +1,14 @@
+
+head {
+  background-color: deeppink;
+}
+
+body {
+  background-color: deeppink;
+}
+
 h1 {
-  color: rgb(255, 0, 0);
+  color: goldenrod
   text-align: center;
 }
 
@@ -16,4 +25,20 @@ p{
 ul {
   font-size: 20px;
   line-height: 30px;
+}
+
+.light-background {
+  background-color:whitesmoke;
+}
+
+.dark-background {
+  background-color: black;
+}
+
+.og-background {
+  background-color: deeppink;
+}
+
+.white-text{
+  color: antiquewhite;
 }
